@@ -1,0 +1,37 @@
+li.menu-item-has-children {
+    position: relative;
+    padding-right: 35px!important;
+    display: inline;
+}
+
+.menu-item-has-children svg {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    transform: scale(1.1);
+}
+
+ul.submenu {
+    background: #fff;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 180px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    top: 40px;
+    transition: 0.3s;
+}
+
+li.menu-item-has-children:hover ul.submenu {
+    visibility: visible;
+    z-index: 1;
+    opacity: 1;
+    top: 30px;
+}
+
+ul.submenu li {
+    list-style: none;
+}
