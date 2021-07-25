@@ -15,7 +15,7 @@
 
         styleLink.type = 'text/css';
 
-        styleLink.href = 'https://raw.githubusercontent.com/akashmdiu/ghost-dynamic-dropdown/master/ghost-dropdwon.css';
+        styleLink.href = '/assets/css/ghost-dropdown.css';
 
         // Append link element to HTML head
         head.prepend(styleLink);
@@ -49,7 +49,7 @@
                 $(this).push(element);
                 $(this).addClass('menu-item-has-children'); // Add claas in dropdown   element
 
-                $(this).append("<ul class='submenu'></ul>"); // Append submenu element
+                $(this).append("<ul class='ghost-submenu'></ul>"); // Append submenu element
             }
         });
 
@@ -86,7 +86,7 @@
             });
 
 
-            $(`.menu-item-has-children ul.submenu:eq(${i})`).append(domArrayElement); // Append related subitem dom element into submenu 
+            $(`.menu-item-has-children ul.ghost-submenu:eq(${i})`).append(domArrayElement); // Append related subitem dom element into submenu 
 
             domArrayElement = []; // Make dom array element empty. 
 
