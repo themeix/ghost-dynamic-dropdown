@@ -47,9 +47,12 @@
         let elIndex = 0;
         let parentIndex = [];
 
+        // Add Class 
         $(`${targetElement}`).parent().addClass('ghost-dropdown-menu');
-
-
+        
+        // Append Icon 
+         $(`.${hasChildrenClasses}`).append(hasChildrenIcon);
+        
         // Find Dropdown parent element
         parentEl.each(function(index, element) {
             if ($(this).text().indexOf(hasChildDetectText) >= 0) {
@@ -66,7 +69,7 @@
             }
         });
 
-        $(`.${hasChildrenClasses}`).append(hasChildrenIcon);
+    
 
         // Using loop to reach dropdown parent element
         for (let i = 0; i < parentLen; i++) {
