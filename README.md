@@ -55,3 +55,19 @@ At the  bottom of the script there has option   to change the value for child dr
         });
     });
 ```
+
+
+
+### Dynamic Menu Supported Theme ( Made by Themeix )
+
+https://themeix.com/product/learn-premium-lms-theme-for-ghost-cms/
+
+https://themeix.com/product/pidkast-ghost-cms-theme-for-podcast/
+
+https://themeix.com/product/newsfeed-news-magazine-ghost-theme/
+
+
+Here is the documentation link about dynamic dropdwon :
+
+https://support.themeix.com/how-to-add-dropdown-navigation-in-newsfeed/
+
