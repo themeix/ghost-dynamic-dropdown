@@ -5,6 +5,11 @@ Ghost does not have the options to  create a dropdown menu from the ghost admin 
 
  [Download Latest Release](https://github.com/themeix/ghost-dynamic-dropdown/releases/latest)
 
+**Include CSS**
+
+```html
+<script src="{{asset "css/ghost-dynamic-dropdown.css"}}"></script>
+```
 
 **Include script**
 
