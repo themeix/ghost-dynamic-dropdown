@@ -20,7 +20,7 @@ At the  bottom of the script there has option   to change the value for child dr
 | -------------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | targetElement                | `nav.ul li` | DOM selector of Menu `ul`                         |
 | hasChildrenClasses           | `menu-item-has-children` | add class for the  parrent  item         |
-| hasChildrenIcon              | ▼ **SVG icon**  |  Use any SVG icon or text as dropdown icon                      |
+| hasChildrenIcon              | ▼ (SVG icon)  |  Use any SVG icon or text as dropdown icon                      |
 | hasChildDetectText        | `[has_child]` **used in admin  dashboard** | Parrent menu item selector                         |
 | submenuUlClasses       | `ghost-submenu`          | CSS class for the submenu items `ul` |
 | subitemDetectText | `[subitem]` **used in admin  dashboard** | child menu item selector                                    |
