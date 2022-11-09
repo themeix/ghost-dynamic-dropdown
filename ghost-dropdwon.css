@@ -5,9 +5,9 @@ li.menu-item-has-children {
 }
 .menu-item-has-children svg {
     position: absolute;
-    right: 0px;
+    right: -6px;
     top: 50%;
-    transform: translate(-0%, -50%) scale(1.1);
+    transform: translate(-0%, -50%) scale(1);
 }
 
 ul.ghost-submenu {
@@ -29,7 +29,7 @@ ul.ghost-submenu {
 li.menu-item-has-children:hover ul.ghost-submenu {
     visibility: visible!important;
     opacity: 1!important;
-    top: 045px!important;
+    top: 45px!important;
 }
 
 ul.ghost-submenu li {
