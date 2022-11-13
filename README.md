@@ -8,7 +8,7 @@ Ghost does not have the options to  create a dropdown menu from the ghost admin 
 **Include CSS**
 
 ```html
-<script src="{{asset "css/ghost-dynamic-dropdown.css"}}"></script>
+ <link rel="stylesheet" href="{{asset "css/ghost-dynamic-dropdown.css"}}">
 ```
 
 **Include script**
